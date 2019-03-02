@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 
+import Container from './components/atoms/Container';
+import Header from './components/molecules/Header';
 class App extends Component {
     render() {
         return (
-            <div>
-                <h1>Reactjs App</h1>
-            </div>
+            <Container margin="0" padding="0" width="100%" >
+                <Header 
+                    title='React js App'
+                />
+            </Container>
         )
     }
 }
