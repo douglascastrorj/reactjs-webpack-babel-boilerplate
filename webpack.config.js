@@ -31,5 +31,8 @@ module.exports = {
                 loaders: ["file-loader"]
             }
         ]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     }
 }
